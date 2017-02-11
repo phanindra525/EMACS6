@@ -1,0 +1,26 @@
+{
+  "name": "emac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o  build/main.bundle.js",
+    "start": "http-server"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phanindra525/EMACS6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phanindra525/EMACS6/issues"
+  },
+  "homepage": "https://github.com/phanindra525/EMACS6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "http-server": "^0.9.0"
+  }
+}
