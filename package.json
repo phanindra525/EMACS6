@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "babel": "babel --presets es2015 js/main.js -o  build/main.bundle.js",
-    "start": "http-server"
+    "start": "http-server",
+    "webpack": "webpack"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/phanindra525/EMACS6.git"
@@ -21,6 +21,8 @@
   "devDependencies": {
     "babel-cli": "^6.22.2",
     "babel-core": "^6.22.1",
-    "http-server": "^0.9.0"
+    "babel-loader": "^6.2.10",
+    "http-server": "^0.9.0",
+    "webpack": "^2.2.1"
   }
 }
